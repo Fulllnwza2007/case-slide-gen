@@ -1,6 +1,5 @@
 # Case Slide Gen
-![Built for Codex](https://img.shields.io/badge/Built%20for-Codex-black)
-![Skill Type](https://img.shields.io/badge/Skill-Case%20Slide%20Generation-blue)
+
 This skill is designed for use in Codex.
 
 Case Slide Gen is a Codex skill for turning business, strategy, finance, and case-competition content into consulting-style slide images.
