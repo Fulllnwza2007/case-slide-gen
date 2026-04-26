@@ -9,7 +9,7 @@ references/memory-bank/slide-images/*
 
 # Generated memory outputs
 references/memory-bank/slide-memory/generated/
-references/memory-bank/index/*.jsonl
+references/memory-bank/index/slide-memory-index.jsonl
 references/memory-bank/index/*-report.json
 
 # Local experiments

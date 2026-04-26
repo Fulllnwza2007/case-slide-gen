@@ -1,0 +1,41 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "case-slide-gen/visual-device-index-record",
+  "title": "Case Slide Gen Visual Device Index Record",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "device_id",
+    "entry_path",
+    "device_type",
+    "best_for_classes",
+    "best_for_data_shapes",
+    "typical_role"
+  ],
+  "properties": {
+    "device_id": {
+      "type": "string"
+    },
+    "entry_path": {
+      "type": "string"
+    },
+    "device_type": {
+      "type": "string"
+    },
+    "best_for_classes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "best_for_data_shapes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "typical_role": {
+      "type": "string"
+    }
+  }
+}

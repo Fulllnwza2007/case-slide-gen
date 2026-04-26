@@ -1,0 +1,73 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "case-slide-gen/slide-memory-index-record",
+  "title": "Case Slide Gen Slide Memory Index Record",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "slide_id",
+    "entry_path",
+    "source_deck",
+    "page",
+    "content_classes",
+    "decision_types",
+    "data_shapes",
+    "visual_devices",
+    "layout_family",
+    "dominance_structure"
+  ],
+  "properties": {
+    "slide_id": {
+      "type": "string"
+    },
+    "entry_path": {
+      "type": "string"
+    },
+    "source_deck": {
+      "type": "string"
+    },
+    "page": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "content_classes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "decision_types": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "data_shapes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "visual_devices": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "layout_family": {
+      "type": "string"
+    },
+    "dominance_structure": {
+      "type": "string"
+    },
+    "density_hint": {
+      "type": "string"
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}

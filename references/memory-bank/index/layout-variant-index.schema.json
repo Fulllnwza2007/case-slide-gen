@@ -1,0 +1,40 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "case-slide-gen/layout-variant-index",
+  "title": "Case Slide Gen Layout Variant Index Record",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "variant_id",
+    "entry_path",
+    "parent_grammar",
+    "hero_position",
+    "best_for_classes",
+    "best_for_data_shapes",
+    "common_device_mix"
+  ],
+  "properties": {
+    "variant_id": { "type": "string" },
+    "entry_path": { "type": "string" },
+    "parent_grammar": { "type": "string" },
+    "hero_position": { "type": "string" },
+    "best_for_classes": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "type": "string" },
+      "uniqueItems": true
+    },
+    "best_for_data_shapes": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "type": "string" },
+      "uniqueItems": true
+    },
+    "common_device_mix": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "type": "string" },
+      "uniqueItems": true
+    }
+  }
+}

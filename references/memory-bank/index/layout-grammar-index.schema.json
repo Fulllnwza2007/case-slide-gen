@@ -1,0 +1,49 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "case-slide-gen/layout-grammar-index-record",
+  "title": "Case Slide Gen Layout Grammar Index Record",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "grammar_id",
+    "entry_path",
+    "fits_classes",
+    "dominance_structure",
+    "allowed_visual_devices"
+  ],
+  "properties": {
+    "grammar_id": {
+      "type": "string"
+    },
+    "entry_path": {
+      "type": "string"
+    },
+    "fits_classes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "common_decision_types": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "common_data_shapes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "dominance_structure": {
+      "type": "string"
+    },
+    "allowed_visual_devices": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}

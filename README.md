@@ -109,6 +109,8 @@ Case Slide Gen works in this order:
   - main skill instructions
 - `agents/openai.yaml`
   - display name and default prompt
+- `scripts/`
+  - helper scripts for rebuilding portable indexes and creating slide-memory from your own local corpus
 - `references/`
   - workflow, schemas, styling rules, examples
 - `references/memory-bank/layout-grammars/`
@@ -117,8 +119,36 @@ Case Slide Gen works in this order:
   - curated composition variants
 - `references/memory-bank/visual-devices/`
   - reusable visual device definitions
+- `references/memory-bank/index/`
+  - portable public indexes for grammars, variants, and visual devices
 - `references/contracts/`
   - machine-readable prompt and decision schemas
+
+## Bundled Public Memory Bank
+
+This package already includes:
+
+- curated layout grammars
+- curated layout variants
+- curated visual devices
+- portable public indexes for those components
+
+That means the public repo carries the reusable layout brain, not just documentation.
+
+## Optional: Improve Performance With Your Own Local Corpus
+
+If you want stronger retrieval on your own machine, you can build local slide-memory entries from your own structured source files.
+
+1. Prepare a local folder of `.txt` or `.md` content files.
+2. Set `TRAINING_ROOT` to that folder.
+3. Run:
+
+```bash
+python3 scripts/build_slide_memory.py
+python3 scripts/rebuild_indexes.py
+```
+
+This lets you keep the public skill package while improving local retrieval quality with your own content.
 
 ## Public Package Notes
 
@@ -132,4 +162,4 @@ It excludes:
 - generated slide-memory dumps
 - machine-specific retrieval indexes
 
-The included memory-bank files are the reusable public-facing definitions, not a private training dataset export.
+The included memory-bank files are the reusable public-facing definitions and portable indexes, not a private training dataset export.
