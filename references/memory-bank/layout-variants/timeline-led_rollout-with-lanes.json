@@ -1,0 +1,44 @@
+{
+  "variant_id": "timeline-led_rollout-with-lanes",
+  "parent_grammar": "roadmap-with-phase-lanes",
+  "summary": "A classical rollout page with clear phases across time, compact workstream lanes, and visible milestones.",
+  "composition_pattern": "strong horizontal phase progression with compact lanes beneath and milestones above or within phases",
+  "hero_position": "full-width horizontal roadmap",
+  "support_structure": [
+    "compact workstream or lane structure",
+    "milestones or timing callouts",
+    "optional light dependency note"
+  ],
+  "reading_order": [
+    "phases",
+    "lanes",
+    "milestones"
+  ],
+  "common_device_mix": [
+    "phase-lanes",
+    "timeline",
+    "callout-card"
+  ],
+  "best_for_classes": [
+    "roadmap",
+    "timeline",
+    "workstreams",
+    "pilot-scale-rollout"
+  ],
+  "best_for_data_shapes": [
+    "roadmap",
+    "table"
+  ],
+  "when_to_use": [
+    "The page is mainly about rollout sequencing over time.",
+    "Phases are the clearest proof of execution readiness."
+  ],
+  "avoid_when": [
+    "Control points or governance matter more than timeline itself."
+  ],
+  "reference_slides": [
+    "2020_ramboll_2nd_s021",
+    "2020_novo_nordisk_1st_s011",
+    "2025_nordea_2nd_s033"
+  ]
+}

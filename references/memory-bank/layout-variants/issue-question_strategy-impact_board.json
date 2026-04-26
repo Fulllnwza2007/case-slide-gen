@@ -1,0 +1,49 @@
+{
+  "variant_id": "issue-question_strategy-impact_board",
+  "parent_grammar": "executive-synthesis-board",
+  "summary": "A short issue strip and question banner frame the page, while the recommendation board and a compact impact cluster complete the executive synthesis.",
+  "composition_pattern": "issue strip, question banner, strategy board, impact cluster",
+  "hero_position": "mid-page banner",
+  "support_structure": [
+    "short issue strip or challenge row",
+    "strategy board with one or two central moves",
+    "compact impact cluster with headline metrics"
+  ],
+  "reading_order": [
+    "issue strip",
+    "guiding question",
+    "strategy board",
+    "impact proof"
+  ],
+  "common_device_mix": [
+    "callout-card",
+    "initiative-cards",
+    "metric-cards",
+    "bar-chart"
+  ],
+  "best_for_classes": [
+    "executive-summary",
+    "problem-frame",
+    "recommendation",
+    "impact-scorecard",
+    "business-case"
+  ],
+  "best_for_data_shapes": [
+    "pillars",
+    "scorecard",
+    "trend"
+  ],
+  "when_to_use": [
+    "The page must restate the challenge before it shows the answer.",
+    "The recommendation is strong but still needs explicit quantified impact on the same page."
+  ],
+  "avoid_when": [
+    "The page needs three equally weighted strategy moves.",
+    "The context section is too long to fit into a short issue strip."
+  ],
+  "reference_slides": [
+    "2020_ramboll_1st_s002",
+    "2020_opening_ungc_1st_s002",
+    "2020_ramboll_1st_s006"
+  ]
+}

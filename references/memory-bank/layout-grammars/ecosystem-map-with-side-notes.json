@@ -1,0 +1,50 @@
+{
+  "grammar_id": "ecosystem-map-with-side-notes",
+  "summary": "A system map or stakeholder map dominates the body while side notes explain roles, relationships, or implications.",
+  "fits_classes": [
+    "ecosystem",
+    "operating-model",
+    "channel-strategy",
+    "partnership-distribution"
+  ],
+  "not_for": [
+    "customer-journey",
+    "risk-mitigation",
+    "valuation-npv"
+  ],
+  "common_decision_types": [
+    "summarize",
+    "prove",
+    "choose"
+  ],
+  "common_data_shapes": [
+    "ecosystem-map",
+    "comparison"
+  ],
+  "dominance_structure": "split",
+  "required_blocks": [
+    "ecosystem or stakeholder map",
+    "role or relationship notes"
+  ],
+  "optional_blocks": [
+    "implication callout"
+  ],
+  "allowed_visual_devices": [
+    "ecosystem-map",
+    "stakeholder-map",
+    "callout-card",
+    "card-grid"
+  ],
+  "reading_order": [
+    "map",
+    "side notes",
+    "implication"
+  ],
+  "usage_notes": [
+    "Use when actor relationships matter more than time sequence.",
+    "Let the map explain the system first, then use side notes to interpret it."
+  ],
+  "avoid_notes": [
+    "Do not use when the page is mainly a phased rollout or quantified business case."
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "device_id": "prioritization-matrix",
+  "device_type": "matrix",
+  "description": "A decision matrix used to rank options by two explicit prioritization criteria.",
+  "best_for_classes": [
+    "prioritization",
+    "portfolio-choice",
+    "decision-criteria"
+  ],
+  "best_for_data_shapes": [
+    "matrix"
+  ],
+  "not_for": [
+    "customer-journey"
+  ],
+  "typical_role": "hero",
+  "notes": [
+    "Use when the page needs to show why some options rise to the top.",
+    "Keep axis names explicit and decision-oriented."
+  ]
+}

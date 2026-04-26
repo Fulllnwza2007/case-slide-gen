@@ -1,0 +1,23 @@
+{
+  "device_id": "timeline",
+  "device_type": "timeline",
+  "description": "A simple linear timeline used to show sequence, phases, or milestones over time.",
+  "best_for_classes": [
+    "timeline",
+    "milestones",
+    "next-steps",
+    "pilot-scale-rollout"
+  ],
+  "best_for_data_shapes": [
+    "roadmap",
+    "trend"
+  ],
+  "not_for": [
+    "competitive-landscape"
+  ],
+  "typical_role": "hero",
+  "notes": [
+    "Use for simple time sequence.",
+    "If there are several workstreams, use phase lanes instead."
+  ]
+}

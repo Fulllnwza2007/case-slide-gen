@@ -1,0 +1,21 @@
+{
+  "device_id": "journey-path",
+  "device_type": "flow",
+  "description": "A stage-by-stage path used to show a customer or patient experience over time.",
+  "best_for_classes": [
+    "customer-journey",
+    "customer-pain",
+    "persona"
+  ],
+  "best_for_data_shapes": [
+    "journey"
+  ],
+  "not_for": [
+    "valuation-npv"
+  ],
+  "typical_role": "hero",
+  "notes": [
+    "Use when sequence and experience matter more than totals.",
+    "Keep stages simple before adding pain-point detail."
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "device_id": "area-chart",
+  "device_type": "chart",
+  "description": "A filled trend chart used to emphasize cumulative volume or changing composition over time.",
+  "best_for_classes": [
+    "market-trend",
+    "market-sizing",
+    "impact-scorecard"
+  ],
+  "best_for_data_shapes": [
+    "trend"
+  ],
+  "not_for": [
+    "customer-journey"
+  ],
+  "typical_role": "proof",
+  "notes": [
+    "Use when total volume matters more than exact point comparisons.",
+    "Avoid too many overlapping series."
+  ]
+}

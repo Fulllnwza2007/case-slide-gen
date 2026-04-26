@@ -1,0 +1,23 @@
+{
+  "device_id": "persona-cards",
+  "device_type": "card",
+  "description": "A persona summary card that captures profile, needs, behavior, and motivations.",
+  "best_for_classes": [
+    "persona",
+    "customer-segmentation",
+    "customer-journey"
+  ],
+  "best_for_data_shapes": [
+    "comparison",
+    "journey"
+  ],
+  "not_for": [
+    "valuation-npv"
+  ],
+  "typical_role": "support",
+  "notes": [
+    "Use when the audience needs to understand a user type before the solution.",
+    "On journey-led pages, use as a compact support cue rather than replacing the journey hero.",
+    "Keep persona details focused on decision-relevant points."
+  ]
+}

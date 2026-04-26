@@ -1,0 +1,53 @@
+{
+  "grammar_id": "two-pillar-comparison",
+  "summary": "Two main options, initiatives, or strategy pillars share the page with supporting rationale beneath or beside them.",
+  "fits_classes": [
+    "strategy-pillars",
+    "recommendation",
+    "value-proposition",
+    "go-to-market",
+    "capability-gap"
+  ],
+  "not_for": [
+    "customer-journey",
+    "risk-mitigation",
+    "valuation-npv"
+  ],
+  "common_decision_types": [
+    "choose",
+    "compare"
+  ],
+  "common_data_shapes": [
+    "pillars",
+    "comparison"
+  ],
+  "dominance_structure": "split",
+  "required_blocks": [
+    "pillar one",
+    "pillar two",
+    "supporting rationale"
+  ],
+  "optional_blocks": [
+    "proof metric",
+    "selection criteria"
+  ],
+  "allowed_visual_devices": [
+    "initiative-cards",
+    "callout-card",
+    "metric-cards",
+    "bar-chart",
+    "comparison-table"
+  ],
+  "reading_order": [
+    "pillar one",
+    "pillar two",
+    "supporting rationale"
+  ],
+  "usage_notes": [
+    "Use when the page needs to compare two strategic moves or two major solution pillars.",
+    "Keep both pillars visually balanced and directly comparable."
+  ],
+  "avoid_notes": [
+    "Do not overload each pillar with many sub-bullets."
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "slide_id": "european_energy_2025_s014",
+  "source_deck": "European Energy 2025 2nd",
+  "source_file": "Drake-Consulting.pdf",
+  "page": 14,
+  "image_path": "slide-images/european_energy_2025_s014.png",
+  "section_type": "Impact",
+  "primary_message": "The proposed strategy creates strong business and sustainability upside with one dominant KPI and supporting proof.",
+  "content_classes": [
+    "impact-scorecard",
+    "business-case"
+  ],
+  "decision_types": [
+    "prove"
+  ],
+  "data_shapes": [
+    "scorecard",
+    "comparison"
+  ],
+  "visual_devices": [
+    "metric-cards",
+    "line-chart",
+    "callout-card"
+  ],
+  "layout_family": "hero-metric-with-supporting-scorecards",
+  "dominance_structure": "hero",
+  "density_hint": "medium",
+  "body_goal": "Prove the business value with one dominant KPI and a small set of supporting metrics.",
+  "body_structure": {
+    "hero_block": "Large KPI cluster in the left-center body.",
+    "support_blocks": [
+      "Small supporting metric cards on the right",
+      "One short proof chart below the hero KPI",
+      "One quiet summary strip aligned with the supporting metrics"
+    ],
+    "reading_order": [
+      "hero KPI",
+      "supporting metrics",
+      "proof chart",
+      "summary strip"
+    ],
+    "notes": [
+      "Keep one business KPI visually dominant",
+      "Do not let the proof chart overpower the hero metric"
+    ]
+  },
+  "chart_types": [
+    "line-chart"
+  ],
+  "table_types": [],
+  "when_to_use": [
+    "Need to prove quantified upside",
+    "Need one dominant business metric with supporting evidence"
+  ],
+  "avoid_when": [
+    "No quantified numbers are available",
+    "The message is primarily a process explanation"
+  ],
+  "why_it_works": "A single dominant KPI anchors the argument while smaller proof blocks add breadth without diluting the message.",
+  "adaptation_notes": [
+    "Can swap the line chart for a bar chart if the time horizon is short",
+    "Limit supporting metrics to three or four"
+  ],
+  "tags": [
+    "hero-metric",
+    "proof",
+    "scorecard"
+  ]
+}

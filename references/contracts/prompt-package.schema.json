@@ -1,0 +1,44 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "case-slide-gen/prompt-package",
+  "title": "Case Slide Gen Prompt Package",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "slide_number",
+    "prompt_intent",
+    "shell_block",
+    "body_block",
+    "theme_block",
+    "style_block",
+    "negative_block",
+    "final_prompt"
+  ],
+  "properties": {
+    "slide_number": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "prompt_intent": {
+      "type": "string"
+    },
+    "shell_block": {
+      "type": "string"
+    },
+    "body_block": {
+      "type": "string"
+    },
+    "theme_block": {
+      "type": "string"
+    },
+    "style_block": {
+      "type": "string"
+    },
+    "negative_block": {
+      "type": "string"
+    },
+    "final_prompt": {
+      "type": "string"
+    }
+  }
+}

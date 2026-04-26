@@ -1,0 +1,4 @@
+interface:
+  display_name: "Case Slide Gen"
+  short_description: "Generate case slide images with fixed shell and adaptive body"
+  default_prompt: "Use Case Slide Gen to turn my case content into consulting-style slide images with a fixed shell and memory-bank-driven body layouts."

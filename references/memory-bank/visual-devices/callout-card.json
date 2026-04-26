@@ -1,0 +1,26 @@
+{
+  "device_id": "callout-card",
+  "device_type": "card",
+  "description": "A compact text-and-highlight card used to translate evidence into a short implication, rationale, or message.",
+  "best_for_classes": [
+    "problem-frame",
+    "recommendation",
+    "strategy-pillars",
+    "risk-mitigation",
+    "value-proposition"
+  ],
+  "best_for_data_shapes": [
+    "comparison",
+    "gap",
+    "pillars",
+    "scorecard"
+  ],
+  "not_for": [
+    "customer-journey"
+  ],
+  "typical_role": "support",
+  "notes": [
+    "Use to interpret the main visual, not replace it.",
+    "Keep the copy short and claim-led."
+  ]
+}

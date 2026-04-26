@@ -1,0 +1,22 @@
+{
+  "device_id": "stakeholder-map",
+  "device_type": "map",
+  "description": "A map of stakeholders or actors showing roles, influence, and interaction.",
+  "best_for_classes": [
+    "ecosystem",
+    "operating-model",
+    "partnership-distribution"
+  ],
+  "best_for_data_shapes": [
+    "ecosystem-map",
+    "comparison"
+  ],
+  "not_for": [
+    "valuation-npv"
+  ],
+  "typical_role": "hero",
+  "notes": [
+    "Use when the audience must understand who plays what role.",
+    "Best with a small number of clearly distinct actors."
+  ]
+}

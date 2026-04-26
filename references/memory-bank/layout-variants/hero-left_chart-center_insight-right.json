@@ -1,0 +1,47 @@
+{
+  "variant_id": "hero-left_chart-center_insight-right",
+  "parent_grammar": "hero-metric-with-supporting-scorecards",
+  "summary": "A left hero anchor frames the page while the main proof chart occupies the center and a right-side insight/proof stack sharpens interpretation.",
+  "composition_pattern": "left anchor, center proof chart, right interpretation stack",
+  "hero_position": "left-edge anchor",
+  "support_structure": [
+    "center dominant chart or comparison proof",
+    "right-side interpretation or metric stack",
+    "optional quiet summary strip"
+  ],
+  "reading_order": [
+    "hero anchor",
+    "center chart",
+    "right-side synthesis",
+    "summary"
+  ],
+  "common_device_mix": [
+    "metric-cards",
+    "bar-chart",
+    "line-chart",
+    "callout-card"
+  ],
+  "best_for_classes": [
+    "market-sizing",
+    "impact-scorecard",
+    "business-case"
+  ],
+  "best_for_data_shapes": [
+    "trend",
+    "gap",
+    "comparison"
+  ],
+  "when_to_use": [
+    "The chart itself must do the heavy lifting",
+    "The slide needs a stronger market or proof-story rhythm than a simple KPI card layout"
+  ],
+  "avoid_when": [
+    "The hero KPI should remain the only dominant focal point",
+    "The page has no central proof chart"
+  ],
+  "reference_slides": [
+    "2020_ramboll_1st_s004",
+    "2023_vestas_1st_s008",
+    "2024_boozt_2nd_s011"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "device_id": "phase-lanes",
+  "device_type": "timeline",
+  "description": "A multi-lane phased roadmap showing workstreams or owners across time.",
+  "best_for_classes": [
+    "roadmap",
+    "workstreams",
+    "owner-governance",
+    "pilot-scale-rollout"
+  ],
+  "best_for_data_shapes": [
+    "roadmap",
+    "table"
+  ],
+  "not_for": [
+    "competitive-landscape"
+  ],
+  "typical_role": "hero",
+  "notes": [
+    "Use when several tracks move in parallel.",
+    "Keep phase naming and lane labeling consistent."
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "variant_id": "board-led_cluster-with-core-anchor",
+  "parent_grammar": "distributed-card-grid",
+  "summary": "A board-led analysis page with one core diagnosis anchor and a small set of compressed support clusters, suitable for the final analysis page before recommendation.",
+  "composition_pattern": "core diagnosis anchor with surrounding compressed support clusters and one directional bridge layer",
+  "hero_position": "center-left or upper-center anchor",
+  "support_structure": [
+    "2-4 compressed support clusters",
+    "one quiet or compact evidence support area",
+    "one directional bridge block near the lower or outer edge"
+  ],
+  "reading_order": [
+    "core diagnosis anchor",
+    "support clusters",
+    "directional bridge"
+  ],
+  "common_device_mix": [
+    "callout-card",
+    "metric-cards"
+  ],
+  "best_for_classes": [
+    "problem-frame",
+    "capability-gap",
+    "market-gap",
+    "competitive-landscape",
+    "benchmarking"
+  ],
+  "best_for_data_shapes": [
+    "issue-cluster",
+    "comparison",
+    "scorecard"
+  ],
+  "when_to_use": [
+    "The slide is diagnosis-board-led rather than chart-led",
+    "The page is closing the analysis section and must point into recommendation",
+    "One issue or tension should anchor the page more strongly than the other support clusters"
+  ],
+  "avoid_when": [
+    "The page has one dominant chart strong enough to lead the body",
+    "The page is actually a clean two-option comparison better handled by a table or two-pillar family"
+  ],
+  "reference_slides": [
+    "2024_boozt_1st_s004",
+    "2025_nordea_1st_s006",
+    "2020_ramboll_1st_s003"
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "variant_id": "question-banner_solution-triplet_impact-strip",
+  "parent_grammar": "executive-synthesis-board",
+  "summary": "A top question or answer banner leads the page, issue cues support the frame, a recommendation triplet anchors the body, and a compact impact strip closes the page.",
+  "composition_pattern": "question banner, issue cues, solution triplet, impact strip",
+  "hero_position": "upper banner",
+  "support_structure": [
+    "small issue or situation cards",
+    "three recommendation move tiles",
+    "compact impact statement or metric strip at the lower edge"
+  ],
+  "reading_order": [
+    "guiding question",
+    "issue or situation cues",
+    "solution triplet",
+    "impact proof"
+  ],
+  "common_device_mix": [
+    "callout-card",
+    "initiative-cards",
+    "metric-cards",
+    "card-grid"
+  ],
+  "best_for_classes": [
+    "executive-summary",
+    "recommendation",
+    "key-question",
+    "strategy-pillars",
+    "impact-scorecard"
+  ],
+  "best_for_data_shapes": [
+    "pillars",
+    "scorecard",
+    "comparison"
+  ],
+  "when_to_use": [
+    "The page must present a clear question-and-answer structure in one page.",
+    "The recommendation naturally breaks into three named moves or a short triplet."
+  ],
+  "avoid_when": [
+    "The page needs a long context narrative block.",
+    "Impact proof should dominate more than the recommendation board."
+  ],
+  "reference_slides": [
+    "2024_boozt_1st_s002",
+    "2025_nordea_1st_s002",
+    "2022_pandora_1st_s003"
+  ]
+}

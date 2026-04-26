@@ -1,0 +1,45 @@
+{
+  "variant_id": "unequal-pillars_primary-secondary",
+  "parent_grammar": "two-pillar-comparison",
+  "summary": "One pillar leads as the primary strategy body while the second pillar supports it with narrower detail and proof.",
+  "composition_pattern": "dominant primary pillar with narrower secondary pillar and shared summary base",
+  "hero_position": "left or primary pillar body",
+  "support_structure": [
+    "secondary pillar with reduced width or quieter proof",
+    "shared lower synthesis or rationale band"
+  ],
+  "reading_order": [
+    "primary pillar",
+    "secondary pillar",
+    "shared summary"
+  ],
+  "common_device_mix": [
+    "initiative-cards",
+    "callout-card",
+    "metric-cards",
+    "card-grid"
+  ],
+  "best_for_classes": [
+    "strategy-pillars",
+    "recommendation",
+    "capability-gap"
+  ],
+  "best_for_data_shapes": [
+    "pillars",
+    "comparison",
+    "scorecard"
+  ],
+  "when_to_use": [
+    "The two pillars are not equally important",
+    "The page should show a clear strategic lead and a supporting pillar"
+  ],
+  "avoid_when": [
+    "Both pillars should feel symmetric",
+    "The page already has a balanced comparison logic"
+  ],
+  "reference_slides": [
+    "2024_boozt_1st_s036",
+    "2024_boozt_1st_s016",
+    "2023_vestas_3rd_s015"
+  ]
+}

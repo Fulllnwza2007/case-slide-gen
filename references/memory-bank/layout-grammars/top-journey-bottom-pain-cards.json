@@ -1,0 +1,52 @@
+{
+  "grammar_id": "top-journey-bottom-pain-cards",
+  "summary": "A customer or user journey spans the upper body and pain points or opportunities sit beneath the relevant stages.",
+  "fits_classes": [
+    "customer-journey",
+    "customer-pain",
+    "persona",
+    "retention-loyalty"
+  ],
+  "not_for": [
+    "business-case",
+    "roadmap",
+    "risk-mitigation"
+  ],
+  "common_decision_types": [
+    "prove",
+    "choose"
+  ],
+  "common_data_shapes": [
+    "journey",
+    "comparison"
+  ],
+  "dominance_structure": "split",
+  "required_blocks": [
+    "journey path",
+    "pain or opportunity cards"
+  ],
+  "optional_blocks": [
+    "persona summary",
+    "summary strip"
+  ],
+  "allowed_visual_devices": [
+    "journey-path",
+    "pain-point-cards",
+    "persona-cards",
+    "callout-card",
+    "process-flow"
+  ],
+  "reading_order": [
+    "journey",
+    "pain cards",
+    "summary"
+  ],
+  "usage_notes": [
+    "Use when the stage-by-stage experience must be understood before the recommendation.",
+    "Place pain points directly under the stage they belong to.",
+    "If the source contains clear persona or segment evidence, add one compact persona summary as support context without replacing the journey hero."
+  ],
+  "avoid_notes": [
+    "Do not add dense scorecards that distract from the journey flow."
+  ]
+}

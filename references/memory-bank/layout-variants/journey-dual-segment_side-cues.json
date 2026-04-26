@@ -1,0 +1,47 @@
+{
+  "variant_id": "journey-dual-segment_side-cues",
+  "parent_grammar": "top-journey-bottom-pain-cards",
+  "summary": "A central journey hero is framed by compact dual-segment cues or side persona cues so the page compares how different customer types experience the same flow.",
+  "composition_pattern": "center journey, side segment cues, lower friction layer, optional summary edge",
+  "hero_position": "center band",
+  "support_structure": [
+    "left and/or right compact segment cues",
+    "lower friction or opportunity cards linked to journey stages",
+    "optional insight or summary strip"
+  ],
+  "reading_order": [
+    "segment cues",
+    "journey hero",
+    "friction layer",
+    "summary"
+  ],
+  "common_device_mix": [
+    "journey-path",
+    "persona-cards",
+    "pain-point-cards",
+    "callout-card"
+  ],
+  "best_for_classes": [
+    "customer-journey",
+    "customer-segmentation",
+    "persona",
+    "customer-pain"
+  ],
+  "best_for_data_shapes": [
+    "journey",
+    "comparison"
+  ],
+  "when_to_use": [
+    "The page must compare at least two customer types across one shared journey",
+    "Segment differences matter as much as the stage sequence"
+  ],
+  "avoid_when": [
+    "There is only one clear customer type",
+    "The page needs a strong right-side insight column instead of dual segment context"
+  ],
+  "reference_slides": [
+    "2024_boozt_2nd_s012",
+    "2024_boozt_2nd_s013",
+    "2020_ramboll_2nd_s017"
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "grammar_id": "executive-synthesis-board",
+  "summary": "An executive-summary board that combines the challenge, recommendation moves, and expected impact in one synthesis page.",
+  "fits_classes": [
+    "executive-summary",
+    "recommendation",
+    "impact-scorecard",
+    "strategy-pillars",
+    "problem-frame",
+    "key-question",
+    "business-case"
+  ],
+  "not_for": [
+    "customer-journey",
+    "risk-mitigation",
+    "roadmap",
+    "timeline",
+    "valuation-npv"
+  ],
+  "common_decision_types": [
+    "summarize",
+    "choose",
+    "prove"
+  ],
+  "common_data_shapes": [
+    "scorecard",
+    "pillars",
+    "comparison"
+  ],
+  "dominance_structure": "board",
+  "required_blocks": [
+    "guiding question or challenge frame",
+    "strategic moves or recommendation board",
+    "impact proof"
+  ],
+  "optional_blocks": [
+    "issue or situation strip",
+    "context panel",
+    "mini metric row",
+    "quiet summary strip"
+  ],
+  "allowed_visual_devices": [
+    "callout-card",
+    "initiative-cards",
+    "metric-cards",
+    "card-grid",
+    "bar-chart",
+    "line-chart",
+    "comparison-table",
+    "stakeholder-map",
+    "persona-cards"
+  ],
+  "reading_order": [
+    "guiding question or claim",
+    "context or issue frame",
+    "strategic move board",
+    "impact proof"
+  ],
+  "usage_notes": [
+    "Use when the page must summarize the answer to the case instead of proving one narrow point.",
+    "Keep the page as a synthesis board: challenge, recommendation, and impact should all be visible without turning the slide into a dense appendix."
+  ],
+  "avoid_notes": [
+    "Do not use when the page should be led by one dominant KPI or one dominant chart only.",
+    "Do not collapse the board into a normal two-pillar strategy page if the slide still needs visible challenge framing and impact proof."
+  ]
+}

@@ -1,0 +1,17 @@
+# Local OS / editor
+.DS_Store
+
+# Raw or local-only reference artifacts
+references/memory-bank/raw/*
+!references/memory-bank/raw/.gitkeep
+references/memory-bank/slide-images/*
+!references/memory-bank/slide-images/.gitkeep
+
+# Generated memory outputs
+references/memory-bank/slide-memory/generated/
+references/memory-bank/index/*.jsonl
+references/memory-bank/index/*-report.json
+
+# Local experiments
+tmp/
+scratch/

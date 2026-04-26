@@ -1,0 +1,73 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "case-slide-gen/layout-variant",
+  "title": "Case Slide Gen Layout Variant",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "variant_id",
+    "parent_grammar",
+    "summary",
+    "composition_pattern",
+    "hero_position",
+    "support_structure",
+    "reading_order",
+    "common_device_mix",
+    "best_for_classes",
+    "best_for_data_shapes",
+    "when_to_use",
+    "avoid_when",
+    "reference_slides"
+  ],
+  "properties": {
+    "variant_id": { "type": "string" },
+    "parent_grammar": { "type": "string" },
+    "summary": { "type": "string" },
+    "composition_pattern": { "type": "string" },
+    "hero_position": { "type": "string" },
+    "support_structure": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "type": "string" }
+    },
+    "reading_order": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "type": "string" }
+    },
+    "common_device_mix": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "type": "string" },
+      "uniqueItems": true
+    },
+    "best_for_classes": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "type": "string" },
+      "uniqueItems": true
+    },
+    "best_for_data_shapes": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "type": "string" },
+      "uniqueItems": true
+    },
+    "when_to_use": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "type": "string" }
+    },
+    "avoid_when": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "type": "string" }
+    },
+    "reference_slides": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "type": "string" },
+      "uniqueItems": true
+    }
+  }
+}

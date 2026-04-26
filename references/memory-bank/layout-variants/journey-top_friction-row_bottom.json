@@ -1,0 +1,44 @@
+{
+  "variant_id": "journey-top_friction-row_bottom",
+  "parent_grammar": "top-journey-bottom-pain-cards",
+  "summary": "The journey spans the upper body and a wide bottom friction row explains the main breakdowns stage by stage.",
+  "composition_pattern": "top journey hero, lower friction row, compact side or edge synthesis",
+  "hero_position": "top-band",
+  "support_structure": [
+    "wide friction row beneath the journey",
+    "optional compact insight stack or summary strip at the side or lower edge"
+  ],
+  "reading_order": [
+    "journey hero",
+    "friction row",
+    "insight or summary"
+  ],
+  "common_device_mix": [
+    "journey-path",
+    "pain-point-cards",
+    "callout-card",
+    "process-flow"
+  ],
+  "best_for_classes": [
+    "customer-journey",
+    "customer-pain",
+    "retention-loyalty"
+  ],
+  "best_for_data_shapes": [
+    "journey",
+    "comparison"
+  ],
+  "when_to_use": [
+    "The sequence itself should dominate the page",
+    "Most of the support evidence belongs directly under journey stages"
+  ],
+  "avoid_when": [
+    "The slide needs a visible persona panel",
+    "The page requires a strong right-side synthesis column"
+  ],
+  "reference_slides": [
+    "2019_carlsberg_1st_s009",
+    "2019_carlsberg_3rd_s002",
+    "2024_boozt_3rd_s014"
+  ]
+}

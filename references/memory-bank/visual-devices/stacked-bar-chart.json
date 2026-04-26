@@ -1,0 +1,22 @@
+{
+  "device_id": "stacked-bar-chart",
+  "device_type": "chart",
+  "description": "A segmented bar chart used to show both total size and composition across categories.",
+  "best_for_classes": [
+    "market-sizing",
+    "customer-segmentation",
+    "channel-strategy"
+  ],
+  "best_for_data_shapes": [
+    "comparison",
+    "scorecard"
+  ],
+  "not_for": [
+    "customer-journey"
+  ],
+  "typical_role": "proof",
+  "notes": [
+    "Use when share of total matters as much as the total itself.",
+    "Limit the number of segments per bar."
+  ]
+}

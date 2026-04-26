@@ -1,0 +1,20 @@
+{
+  "device_id": "risk-matrix",
+  "device_type": "matrix",
+  "description": "A risk heat or quadrant matrix showing risks by likelihood and impact.",
+  "best_for_classes": [
+    "risk-mitigation",
+    "sensitivity-scenario"
+  ],
+  "best_for_data_shapes": [
+    "matrix"
+  ],
+  "not_for": [
+    "customer-journey"
+  ],
+  "typical_role": "hero",
+  "notes": [
+    "Use when likelihood-impact framing is central.",
+    "Pair it with mitigation notes, not standalone."
+  ]
+}

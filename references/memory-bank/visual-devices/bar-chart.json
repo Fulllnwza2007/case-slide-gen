@@ -1,0 +1,22 @@
+{
+  "device_id": "bar-chart",
+  "device_type": "chart",
+  "description": "A basic bar chart used to compare values across categories.",
+  "best_for_classes": [
+    "market-sizing",
+    "competitive-landscape",
+    "benchmarking",
+    "pricing-strategy"
+  ],
+  "best_for_data_shapes": [
+    "comparison"
+  ],
+  "not_for": [
+    "customer-journey"
+  ],
+  "typical_role": "proof",
+  "notes": [
+    "Use when discrete category comparison matters.",
+    "Prefer bars over lines when categories are not a time series."
+  ]
+}

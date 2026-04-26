@@ -1,0 +1,22 @@
+{
+  "device_id": "ecosystem-map",
+  "device_type": "map",
+  "description": "A relationship map showing actors, flows, or dependencies in a business ecosystem.",
+  "best_for_classes": [
+    "ecosystem",
+    "partnership-distribution",
+    "operating-model"
+  ],
+  "best_for_data_shapes": [
+    "ecosystem-map"
+  ],
+  "not_for": [
+    "valuation-npv",
+    "timeline"
+  ],
+  "typical_role": "hero",
+  "notes": [
+    "Best when the network itself is the message.",
+    "Use side notes to explain leverage points."
+  ]
+}

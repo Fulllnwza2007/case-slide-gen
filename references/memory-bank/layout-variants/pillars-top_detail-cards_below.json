@@ -1,0 +1,45 @@
+{
+  "variant_id": "pillars-top_detail-cards_below",
+  "parent_grammar": "two-pillar-comparison",
+  "summary": "Two pillar headers establish the strategic split at the top, while the lower body carries the detailed proof cards and operating logic beneath each pillar.",
+  "composition_pattern": "top pillar headers, lower detail field, compact synthesis edge",
+  "hero_position": "top split headers",
+  "support_structure": [
+    "lower detail cards beneath each pillar",
+    "optional compact side or bottom synthesis note"
+  ],
+  "reading_order": [
+    "pillar headers",
+    "left detail cluster",
+    "right detail cluster",
+    "summary"
+  ],
+  "common_device_mix": [
+    "initiative-cards",
+    "card-grid",
+    "callout-card"
+  ],
+  "best_for_classes": [
+    "strategy-pillars",
+    "capability-gap",
+    "recommendation"
+  ],
+  "best_for_data_shapes": [
+    "pillars",
+    "comparison",
+    "table"
+  ],
+  "when_to_use": [
+    "The page needs more initiative detail under each pillar",
+    "The upper body should stay conceptually clean while detail sits below"
+  ],
+  "avoid_when": [
+    "The page should resolve with one strong bottom synthesis strip",
+    "The detailed proof would overcrowd the lower field"
+  ],
+  "reference_slides": [
+    "2024_boozt_3rd_s010",
+    "2022_pandora_1st_s016",
+    "2026_loral_nordic_3rd_s018"
+  ]
+}

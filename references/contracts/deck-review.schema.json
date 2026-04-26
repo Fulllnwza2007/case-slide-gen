@@ -1,0 +1,67 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "case-slide-gen/deck-review",
+  "title": "Case Slide Gen Deck Review",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "shell_family_consistency",
+    "flow_family_consistency",
+    "visual_family_consistency",
+    "overall_deck_outcome",
+    "deck_notes"
+  ],
+  "properties": {
+    "shell_family_consistency": {
+      "$ref": "#/$defs/reviewCategory"
+    },
+    "flow_family_consistency": {
+      "$ref": "#/$defs/reviewCategory"
+    },
+    "visual_family_consistency": {
+      "$ref": "#/$defs/reviewCategory"
+    },
+    "overall_deck_outcome": {
+      "type": "string",
+      "enum": [
+        "accept",
+        "revise",
+        "regenerate"
+      ]
+    },
+    "deck_notes": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "$defs": {
+    "reviewCategory": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "rating",
+        "notes"
+      ],
+      "properties": {
+        "rating": {
+          "type": "string",
+          "enum": [
+            "pass",
+            "borderline",
+            "fail"
+          ]
+        },
+        "notes": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}

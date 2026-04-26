@@ -1,0 +1,23 @@
+{
+  "device_id": "financial-summary-table",
+  "device_type": "table",
+  "description": "A compact finance table showing revenue, cost, profit, NPV, or investment assumptions.",
+  "best_for_classes": [
+    "business-case",
+    "valuation-npv",
+    "funding-investment",
+    "unit-economics"
+  ],
+  "best_for_data_shapes": [
+    "table",
+    "scorecard"
+  ],
+  "not_for": [
+    "customer-journey"
+  ],
+  "typical_role": "proof",
+  "notes": [
+    "Use for compact financial proof.",
+    "Do not overload with too many rows in main-story slides."
+  ]
+}

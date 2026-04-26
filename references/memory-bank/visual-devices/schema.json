@@ -1,0 +1,76 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "case-slide-gen/visual-device-entry",
+  "title": "Case Slide Gen Visual Device Entry",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "device_id",
+    "device_type",
+    "description",
+    "best_for_classes",
+    "best_for_data_shapes",
+    "typical_role",
+    "notes"
+  ],
+  "properties": {
+    "device_id": {
+      "type": "string"
+    },
+    "device_type": {
+      "type": "string",
+      "enum": [
+        "chart",
+        "table",
+        "card",
+        "diagram",
+        "map",
+        "timeline",
+        "matrix",
+        "flow"
+      ]
+    },
+    "description": {
+      "type": "string"
+    },
+    "best_for_classes": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string"
+      },
+      "uniqueItems": true
+    },
+    "best_for_data_shapes": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string"
+      },
+      "uniqueItems": true
+    },
+    "not_for": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "uniqueItems": true
+    },
+    "typical_role": {
+      "type": "string",
+      "enum": [
+        "hero",
+        "support",
+        "proof",
+        "bridge"
+      ]
+    },
+    "notes": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}

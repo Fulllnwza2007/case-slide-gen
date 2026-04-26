@@ -1,0 +1,25 @@
+{
+  "device_id": "card-grid",
+  "device_type": "card",
+  "description": "A balanced grid of several cards used when the message is naturally distributed across multiple similar points.",
+  "best_for_classes": [
+    "strategy-pillars",
+    "go-to-market",
+    "channel-strategy",
+    "next-steps"
+  ],
+  "best_for_data_shapes": [
+    "pillars",
+    "comparison",
+    "table"
+  ],
+  "not_for": [
+    "valuation-npv",
+    "customer-journey"
+  ],
+  "typical_role": "support",
+  "notes": [
+    "Use only when no single block needs to dominate.",
+    "Avoid too many cards on one slide."
+  ]
+}

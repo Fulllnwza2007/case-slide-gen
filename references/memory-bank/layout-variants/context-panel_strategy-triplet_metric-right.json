@@ -1,0 +1,50 @@
+{
+  "variant_id": "context-panel_strategy-triplet_metric-right",
+  "parent_grammar": "executive-synthesis-board",
+  "summary": "A top claim leads into a visible context panel, followed by a strategy triplet and a compact right-side or lower-right impact proof stack.",
+  "composition_pattern": "top claim, context panel, strategy triplet, right-side metric stack",
+  "hero_position": "top claim with central context",
+  "support_structure": [
+    "context panel that explains the situation or challenge",
+    "three recommendation moves or named pillars",
+    "compact right-side or lower-right impact metric stack"
+  ],
+  "reading_order": [
+    "top claim",
+    "context panel",
+    "strategy triplet",
+    "impact stack"
+  ],
+  "common_device_mix": [
+    "initiative-cards",
+    "metric-cards",
+    "callout-card",
+    "stakeholder-map",
+    "persona-cards"
+  ],
+  "best_for_classes": [
+    "executive-summary",
+    "problem-frame",
+    "strategy-pillars",
+    "impact-scorecard",
+    "recommendation"
+  ],
+  "best_for_data_shapes": [
+    "pillars",
+    "scorecard",
+    "comparison"
+  ],
+  "when_to_use": [
+    "The recommendation needs a meaningful context setup before the moves make sense.",
+    "Impact proof is important but should remain secondary to the central strategy board."
+  ],
+  "avoid_when": [
+    "The page has almost no context narrative.",
+    "The page should be driven by one dominant KPI instead of a synthesis board."
+  ],
+  "reference_slides": [
+    "2024_novo_nordisk_3rd_s002",
+    "2024_novo_nordisk_3rd_s003",
+    "2025_european_energy_3rd_s002"
+  ]
+}

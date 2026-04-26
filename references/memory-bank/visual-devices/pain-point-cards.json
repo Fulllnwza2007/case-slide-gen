@@ -1,0 +1,22 @@
+{
+  "device_id": "pain-point-cards",
+  "device_type": "card",
+  "description": "A set of cards describing friction points, barriers, or unmet needs at specific stages.",
+  "best_for_classes": [
+    "customer-pain",
+    "customer-journey",
+    "problem-frame"
+  ],
+  "best_for_data_shapes": [
+    "journey",
+    "gap"
+  ],
+  "not_for": [
+    "valuation-npv"
+  ],
+  "typical_role": "support",
+  "notes": [
+    "Usually sits beneath a journey path or beside a persona.",
+    "Keep each pain point tightly phrased."
+  ]
+}

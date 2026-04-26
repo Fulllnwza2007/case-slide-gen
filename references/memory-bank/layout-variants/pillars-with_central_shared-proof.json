@@ -1,0 +1,49 @@
+{
+  "variant_id": "pillars-with_central_shared-proof",
+  "parent_grammar": "two-pillar-comparison",
+  "summary": "Two pillar blocks sit to the sides while a central shared proof zone connects them through one chart, scorecard, or common rationale layer.",
+  "composition_pattern": "side pillars with central shared proof core",
+  "hero_position": "shared center proof",
+  "support_structure": [
+    "left pillar block",
+    "right pillar block",
+    "central shared proof or rationale core",
+    "optional lower synthesis strip"
+  ],
+  "reading_order": [
+    "central shared proof",
+    "left pillar",
+    "right pillar",
+    "summary"
+  ],
+  "common_device_mix": [
+    "initiative-cards",
+    "metric-cards",
+    "callout-card",
+    "bar-chart"
+  ],
+  "best_for_classes": [
+    "strategy-pillars",
+    "value-proposition",
+    "go-to-market",
+    "executive-summary"
+  ],
+  "best_for_data_shapes": [
+    "pillars",
+    "comparison",
+    "scorecard"
+  ],
+  "when_to_use": [
+    "The page needs to show how both pillars create one combined effect",
+    "A shared proof block should unify the two strategies"
+  ],
+  "avoid_when": [
+    "The pillars should stay fully separate",
+    "The page has no credible shared proof core"
+  ],
+  "reference_slides": [
+    "2024_boozt_1st_s006",
+    "2024_boozt_1st_s027",
+    "2020_ramboll_1st_s021"
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "grammar_id": "hero-metric-with-supporting-scorecards",
+  "summary": "One KPI or proof block leads the page and is supported by smaller metrics, charts, or finance proof around it.",
+  "fits_classes": [
+    "impact-scorecard",
+    "business-case",
+    "valuation-npv",
+    "funding-investment",
+    "market-sizing",
+    "executive-summary"
+  ],
+  "not_for": [
+    "customer-journey",
+    "roadmap",
+    "risk-mitigation"
+  ],
+  "common_decision_types": [
+    "prove",
+    "forecast",
+    "summarize"
+  ],
+  "common_data_shapes": [
+    "scorecard",
+    "trend",
+    "comparison",
+    "table"
+  ],
+  "dominance_structure": "hero",
+  "required_blocks": [
+    "hero metric or proof block",
+    "supporting metrics",
+    "proof chart or compact comparison"
+  ],
+  "optional_blocks": [
+    "short summary strip",
+    "small assumptions note"
+  ],
+  "allowed_visual_devices": [
+    "metric-cards",
+    "financial-summary-table",
+    "line-chart",
+    "bar-chart",
+    "comparison-table",
+    "callout-card",
+    "area-chart"
+  ],
+  "reading_order": [
+    "hero proof",
+    "supporting proof",
+    "contextual detail"
+  ],
+  "usage_notes": [
+    "Use when the page should anchor on one business result or headline KPI.",
+    "Keep the hero block clearly larger or more dominant than the supporting proof."
+  ],
+  "avoid_notes": [
+    "Do not turn all supporting metrics into equal-weight heroes."
+  ]
+}

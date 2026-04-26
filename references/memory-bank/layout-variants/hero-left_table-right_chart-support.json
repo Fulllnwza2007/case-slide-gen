@@ -1,0 +1,49 @@
+{
+  "variant_id": "hero-left_table-right_chart-support",
+  "parent_grammar": "hero-metric-with-supporting-scorecards",
+  "summary": "A left hero proof block leads the page while a compact finance or comparison table and a supporting chart share the right and lower proof field.",
+  "composition_pattern": "left hero, right table support, lower or adjacent chart proof",
+  "hero_position": "upper-left",
+  "support_structure": [
+    "right-side compact finance or comparison table",
+    "lower or mid proof chart",
+    "optional small assumptions note or summary strip"
+  ],
+  "reading_order": [
+    "hero proof",
+    "table proof",
+    "chart proof",
+    "summary"
+  ],
+  "common_device_mix": [
+    "metric-cards",
+    "financial-summary-table",
+    "comparison-table",
+    "bar-chart",
+    "line-chart"
+  ],
+  "best_for_classes": [
+    "business-case",
+    "valuation-npv",
+    "funding-investment",
+    "competitive-landscape"
+  ],
+  "best_for_data_shapes": [
+    "table",
+    "comparison",
+    "trend"
+  ],
+  "when_to_use": [
+    "The table is an important proof device, not a minor footnote",
+    "The slide needs more explicit numeric substantiation beside the hero claim"
+  ],
+  "avoid_when": [
+    "The page has no real table or tabular proof",
+    "The chart should dominate more than the numeric table"
+  ],
+  "reference_slides": [
+    "2012_dong_1st_s005",
+    "2012_dong_1st_s010",
+    "2023_vestas_3rd_s015"
+  ]
+}

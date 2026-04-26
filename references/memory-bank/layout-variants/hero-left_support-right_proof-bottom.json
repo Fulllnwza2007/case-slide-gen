@@ -1,0 +1,48 @@
+{
+  "variant_id": "hero-left_support-right_proof-bottom",
+  "parent_grammar": "hero-metric-with-supporting-scorecards",
+  "summary": "A left-anchored hero proof block leads the slide, a right-side metric band widens the case, and compact proof sits beneath the hero.",
+  "composition_pattern": "left hero, right support column, lower proof area",
+  "hero_position": "upper-left",
+  "support_structure": [
+    "right-side supporting metric band",
+    "lower-left or lower-center proof chart",
+    "optional narrow summary strip at the lower edge"
+  ],
+  "reading_order": [
+    "hero proof",
+    "supporting metrics",
+    "proof chart",
+    "summary"
+  ],
+  "common_device_mix": [
+    "metric-cards",
+    "bar-chart",
+    "line-chart",
+    "financial-summary-table"
+  ],
+  "best_for_classes": [
+    "impact-scorecard",
+    "business-case",
+    "executive-summary",
+    "market-sizing"
+  ],
+  "best_for_data_shapes": [
+    "scorecard",
+    "comparison",
+    "trend"
+  ],
+  "when_to_use": [
+    "One result or claim should clearly dominate the page",
+    "The slide needs a strong left-to-right argument flow"
+  ],
+  "avoid_when": [
+    "The slide needs two equally weighted bodies",
+    "The message is mostly process-oriented"
+  ],
+  "reference_slides": [
+    "2025_nordea_1st_s022",
+    "2025_european_energy_2nd_s018",
+    "2023_vestas_1st_s012"
+  ]
+}

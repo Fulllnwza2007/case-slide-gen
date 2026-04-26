@@ -1,0 +1,22 @@
+{
+  "device_id": "decision-tree",
+  "device_type": "flow",
+  "description": "A branching flow used to show decision paths, conditions, or choice logic.",
+  "best_for_classes": [
+    "decision-criteria",
+    "prioritization",
+    "risk-mitigation"
+  ],
+  "best_for_data_shapes": [
+    "comparison",
+    "matrix"
+  ],
+  "not_for": [
+    "market-trend"
+  ],
+  "typical_role": "hero",
+  "notes": [
+    "Use when the page explains choices based on explicit conditions.",
+    "Keep each branch short and legible."
+  ]
+}

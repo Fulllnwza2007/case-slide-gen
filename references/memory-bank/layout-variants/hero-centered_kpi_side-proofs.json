@@ -1,0 +1,47 @@
+{
+  "variant_id": "hero-centered_kpi_side-proofs",
+  "parent_grammar": "hero-metric-with-supporting-scorecards",
+  "summary": "A centered hero KPI anchors the upper body while proof and supporting metrics sit in slimmer side or lower clusters.",
+  "composition_pattern": "centered hero KPI with side or lower proof supports",
+  "hero_position": "upper-center",
+  "support_structure": [
+    "side proof clusters or narrow metric stacks",
+    "lower supporting proof band",
+    "optional quiet summary strip"
+  ],
+  "reading_order": [
+    "center hero KPI",
+    "side proof",
+    "lower proof",
+    "summary"
+  ],
+  "common_device_mix": [
+    "metric-cards",
+    "callout-card",
+    "bar-chart",
+    "line-chart"
+  ],
+  "best_for_classes": [
+    "impact-scorecard",
+    "executive-summary",
+    "funding-investment"
+  ],
+  "best_for_data_shapes": [
+    "scorecard",
+    "comparison",
+    "trend"
+  ],
+  "when_to_use": [
+    "The headline KPI should read as the visual center of gravity",
+    "The proof can support from the edges without challenging the hero"
+  ],
+  "avoid_when": [
+    "The page needs a strong left-to-right argument rhythm",
+    "The central chart should dominate more than the KPI"
+  ],
+  "reference_slides": [
+    "2020_ramboll_1st_s008",
+    "2020_ramboll_1st_s012",
+    "2024_boozt_3rd_s019"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "device_id": "funnel",
+  "device_type": "flow",
+  "description": "A narrowing flow used to show conversion, drop-off, or progressive filtering across stages.",
+  "best_for_classes": [
+    "go-to-market",
+    "customer-segmentation",
+    "retention-loyalty"
+  ],
+  "best_for_data_shapes": [
+    "funnel"
+  ],
+  "not_for": [
+    "roadmap"
+  ],
+  "typical_role": "hero",
+  "notes": [
+    "Use when each stage reduces the population or flow.",
+    "Show drop-off clearly between stages."
+  ]
+}

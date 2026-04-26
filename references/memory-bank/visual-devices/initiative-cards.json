@@ -1,0 +1,23 @@
+{
+  "device_id": "initiative-cards",
+  "device_type": "card",
+  "description": "A set of cards used to describe strategic initiatives, their rationale, and expected effect.",
+  "best_for_classes": [
+    "strategy-pillars",
+    "go-to-market",
+    "next-steps",
+    "pilot-scale-rollout"
+  ],
+  "best_for_data_shapes": [
+    "pillars",
+    "comparison"
+  ],
+  "not_for": [
+    "valuation-npv"
+  ],
+  "typical_role": "support",
+  "notes": [
+    "Use when each initiative needs a short standalone explanation.",
+    "Works well under a summary strip or beside a central proof visual."
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "grammar_id": "execution-board-with-control-points",
+  "summary": "An execution-focused implementation board that combines control points, ownership, and dependencies with a lighter sequencing layer.",
+  "fits_classes": [
+    "workstreams",
+    "owner-governance",
+    "pilot-scale-rollout",
+    "change-management",
+    "operating-model"
+  ],
+  "not_for": [
+    "customer-journey",
+    "business-case",
+    "competitive-landscape"
+  ],
+  "common_decision_types": [
+    "sequence",
+    "choose"
+  ],
+  "common_data_shapes": [
+    "table",
+    "comparison",
+    "roadmap"
+  ],
+  "dominance_structure": "split",
+  "required_blocks": [
+    "execution control anchor",
+    "control points or owner/dependency structure"
+  ],
+  "optional_blocks": [
+    "light sequencing rail",
+    "milestones",
+    "dependencies",
+    "owners"
+  ],
+  "allowed_visual_devices": [
+    "process-flow",
+    "callout-card",
+    "phase-lanes",
+    "timeline",
+    "risk-mitigation-table"
+  ],
+  "reading_order": [
+    "execution anchor",
+    "control points or owners",
+    "sequence support"
+  ],
+  "usage_notes": [
+    "Use when execution logic depends on gates, owners, or coordination structure rather than timeline alone.",
+    "Let the control structure stay visible and do not hide it inside small labels."
+  ],
+  "avoid_notes": [
+    "Do not use when the page is purely a phased rollout with no meaningful control logic."
+  ]
+}

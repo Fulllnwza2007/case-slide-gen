@@ -1,0 +1,44 @@
+{
+  "variant_id": "balanced-pillars_top_with_synthesis-bottom",
+  "parent_grammar": "two-pillar-comparison",
+  "summary": "Two balanced strategy pillars occupy the upper body and a narrow bottom synthesis band shows how they combine into one system.",
+  "composition_pattern": "side-by-side pillar blocks with lower synthesis strip",
+  "hero_position": "shared upper body",
+  "support_structure": [
+    "left pillar detail cards",
+    "right pillar detail cards",
+    "lower synthesis or linkage strip"
+  ],
+  "reading_order": [
+    "left pillar",
+    "right pillar",
+    "bottom synthesis"
+  ],
+  "common_device_mix": [
+    "initiative-cards",
+    "callout-card",
+    "metric-cards"
+  ],
+  "best_for_classes": [
+    "strategy-pillars",
+    "value-proposition",
+    "go-to-market"
+  ],
+  "best_for_data_shapes": [
+    "pillars",
+    "comparison"
+  ],
+  "when_to_use": [
+    "The two strategic pillars should feel equally important",
+    "The page needs one short synthesis line showing how both pillars work together"
+  ],
+  "avoid_when": [
+    "One pillar clearly dominates the other",
+    "The page needs a third major body mass"
+  ],
+  "reference_slides": [
+    "2019_carlsberg_1st_s003",
+    "2025_nordea_1st_s018",
+    "2024_boozt_1st_s021"
+  ]
+}

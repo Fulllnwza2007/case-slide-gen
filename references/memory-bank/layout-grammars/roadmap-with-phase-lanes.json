@@ -1,0 +1,54 @@
+{
+  "grammar_id": "roadmap-with-phase-lanes",
+  "summary": "A phased roadmap with clear lanes, milestones, and sequencing for execution pages.",
+  "fits_classes": [
+    "roadmap",
+    "timeline",
+    "workstreams",
+    "milestones",
+    "owner-governance",
+    "pilot-scale-rollout",
+    "change-management"
+  ],
+  "not_for": [
+    "customer-journey",
+    "business-case",
+    "competitive-landscape"
+  ],
+  "common_decision_types": [
+    "sequence",
+    "choose"
+  ],
+  "common_data_shapes": [
+    "roadmap",
+    "table"
+  ],
+  "dominance_structure": "distributed",
+  "required_blocks": [
+    "phases",
+    "lanes or workstreams",
+    "milestones"
+  ],
+  "optional_blocks": [
+    "owners",
+    "dependencies"
+  ],
+  "allowed_visual_devices": [
+    "phase-lanes",
+    "timeline",
+    "process-flow",
+    "callout-card"
+  ],
+  "reading_order": [
+    "phases",
+    "lanes",
+    "milestones"
+  ],
+  "usage_notes": [
+    "Use for execution sequencing, rollouts, and multi-track implementation plans.",
+    "Keep phase names short and make milestones visibly scannable."
+  ],
+  "avoid_notes": [
+    "Do not use when the main question is proof of value rather than sequence."
+  ]
+}

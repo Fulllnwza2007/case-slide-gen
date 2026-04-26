@@ -1,0 +1,59 @@
+{
+  "grammar_id": "distributed-card-grid",
+  "summary": "A balanced grid of cards used when several points carry similar weight and no single proof block should dominate the page.",
+  "fits_classes": [
+    "problem-frame",
+    "recommendation",
+    "customer-segmentation",
+    "persona",
+    "promotion-offer",
+    "channel-strategy",
+    "market-gap",
+    "competitive-landscape"
+  ],
+  "not_for": [
+    "customer-journey",
+    "roadmap",
+    "risk-mitigation",
+    "valuation-npv"
+  ],
+  "common_decision_types": [
+    "summarize",
+    "compare",
+    "choose"
+  ],
+  "common_data_shapes": [
+    "comparison",
+    "gap",
+    "table",
+    "scorecard"
+  ],
+  "dominance_structure": "distributed",
+  "required_blocks": [
+    "three to six balanced content cards"
+  ],
+  "optional_blocks": [
+    "short summary band",
+    "small proof metric"
+  ],
+  "allowed_visual_devices": [
+    "card-grid",
+    "initiative-cards",
+    "callout-card",
+    "persona-cards",
+    "metric-cards"
+  ],
+  "reading_order": [
+    "top-left",
+    "top-right",
+    "bottom-left",
+    "bottom-right"
+  ],
+  "usage_notes": [
+    "Use when the page needs several equal-weight points rather than one dominant proof block.",
+    "Keep each card short and structurally parallel."
+  ],
+  "avoid_notes": [
+    "Do not use when a chart, roadmap, or journey should clearly dominate the slide."
+  ]
+}

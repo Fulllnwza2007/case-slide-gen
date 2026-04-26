@@ -1,0 +1,23 @@
+{
+  "device_id": "comparison-table",
+  "device_type": "table",
+  "description": "A compact table used to compare options, entities, or dimensions side by side.",
+  "best_for_classes": [
+    "competitive-landscape",
+    "benchmarking",
+    "portfolio-choice",
+    "pricing-strategy"
+  ],
+  "best_for_data_shapes": [
+    "comparison",
+    "table"
+  ],
+  "not_for": [
+    "customer-journey"
+  ],
+  "typical_role": "proof",
+  "notes": [
+    "Keep the number of columns limited.",
+    "Use when categories need direct side-by-side comparison."
+  ]
+}

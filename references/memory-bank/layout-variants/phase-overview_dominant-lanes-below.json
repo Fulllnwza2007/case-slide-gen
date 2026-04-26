@@ -1,0 +1,46 @@
+{
+  "variant_id": "phase-overview_dominant-lanes-below",
+  "parent_grammar": "roadmap-with-phase-lanes",
+  "summary": "A rollout page where the phase overview is the clear hero and the workstream lanes sit below as secondary execution support.",
+  "composition_pattern": "large named phases across the top with compact aligned lanes below and only light gate logic between phases",
+  "hero_position": "top phase overview band",
+  "support_structure": [
+    "compact workstream lanes below the phase band",
+    "short secondary action blocks within each phase",
+    "light checkpoint cues only when needed"
+  ],
+  "reading_order": [
+    "phase overview",
+    "initiative row labels",
+    "primary rollout bars",
+    "secondary actions",
+    "light checkpoints"
+  ],
+  "common_device_mix": [
+    "phase-lanes",
+    "timeline",
+    "callout-card"
+  ],
+  "best_for_classes": [
+    "roadmap",
+    "timeline",
+    "pilot-scale-rollout",
+    "workstreams"
+  ],
+  "best_for_data_shapes": [
+    "roadmap",
+    "table"
+  ],
+  "when_to_use": [
+    "The slide must first communicate one source-derived phase overview as the main execution story.",
+    "The workstream detail should support the phase overview rather than compete with it."
+  ],
+  "avoid_when": [
+    "The slide is primarily about hard gate logic or governance control rather than phase-led rollout."
+  ],
+  "reference_slides": [
+    "2022_pandora_1st_s011",
+    "2026_loral_nordic_1st_s038",
+    "2026_loral_nordic_1st_s039"
+  ]
+}

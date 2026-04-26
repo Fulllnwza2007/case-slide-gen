@@ -1,0 +1,48 @@
+{
+  "variant_id": "persona-left_journey-center_insights-right",
+  "parent_grammar": "top-journey-bottom-pain-cards",
+  "summary": "A left persona panel frames the page, a central journey band leads the story, and a right-side insight stack converts frictions into sharp conclusions.",
+  "composition_pattern": "left persona panel, center journey hero, right insight stack, lower friction layer",
+  "hero_position": "upper-center",
+  "support_structure": [
+    "left compact persona or segment panel",
+    "lower friction cards tied to journey stages",
+    "right-side insight stack",
+    "optional quiet summary strip"
+  ],
+  "reading_order": [
+    "persona context",
+    "journey hero",
+    "friction cards",
+    "insight stack",
+    "summary"
+  ],
+  "common_device_mix": [
+    "persona-cards",
+    "journey-path",
+    "pain-point-cards",
+    "callout-card"
+  ],
+  "best_for_classes": [
+    "customer-journey",
+    "customer-pain",
+    "customer-segmentation"
+  ],
+  "best_for_data_shapes": [
+    "journey",
+    "comparison"
+  ],
+  "when_to_use": [
+    "The source includes usable segment or persona evidence",
+    "The page should explain whose journey matters before detailing the frictions"
+  ],
+  "avoid_when": [
+    "The source lacks meaningful customer-type evidence",
+    "The page is purely a process or retention mechanics page"
+  ],
+  "reference_slides": [
+    "2025_nordea_2nd_s014",
+    "2026_loral_nordic_1st_s011",
+    "2024_novo_nordisk_1st_s007"
+  ]
+}

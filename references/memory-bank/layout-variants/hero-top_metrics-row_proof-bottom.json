@@ -1,0 +1,47 @@
+{
+  "variant_id": "hero-top_metrics-row_proof-bottom",
+  "parent_grammar": "hero-metric-with-supporting-scorecards",
+  "summary": "A top hero KPI opens the page, a mid-layer row of metrics widens the proof, and a lower chart or table completes the business case.",
+  "composition_pattern": "top hero, middle metric row, lower proof layer",
+  "hero_position": "top-center",
+  "support_structure": [
+    "middle row of supporting metrics",
+    "lower proof chart or table",
+    "optional assumptions note or small summary strip"
+  ],
+  "reading_order": [
+    "hero proof",
+    "supporting metrics",
+    "lower proof"
+  ],
+  "common_device_mix": [
+    "metric-cards",
+    "bar-chart",
+    "comparison-table",
+    "financial-summary-table"
+  ],
+  "best_for_classes": [
+    "impact-scorecard",
+    "valuation-npv",
+    "funding-investment",
+    "executive-summary"
+  ],
+  "best_for_data_shapes": [
+    "scorecard",
+    "table",
+    "comparison"
+  ],
+  "when_to_use": [
+    "The hero message should be read before any side-to-side comparison",
+    "The slide needs a cleaner top-down proof sequence"
+  ],
+  "avoid_when": [
+    "The slide needs a strong side support column",
+    "The evidence is too dispersed for a top-down reading flow"
+  ],
+  "reference_slides": [
+    "2026_loral_nordic_3rd_s043",
+    "2023_vestas_2nd_s010",
+    "2024_boozt_3rd_s019"
+  ]
+}

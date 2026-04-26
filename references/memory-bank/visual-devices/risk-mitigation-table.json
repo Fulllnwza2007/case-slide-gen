@@ -1,0 +1,21 @@
+{
+  "device_id": "risk-mitigation-table",
+  "device_type": "table",
+  "description": "A structured table pairing each risk with cause, impact, mitigation, and owner.",
+  "best_for_classes": [
+    "risk-mitigation",
+    "owner-governance"
+  ],
+  "best_for_data_shapes": [
+    "table",
+    "comparison"
+  ],
+  "not_for": [
+    "customer-journey"
+  ],
+  "typical_role": "proof",
+  "notes": [
+    "Use when each mitigation must stay tightly paired with a specific risk.",
+    "Keep risk names concise and mitigation action-oriented."
+  ]
+}

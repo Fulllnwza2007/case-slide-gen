@@ -1,0 +1,25 @@
+{
+  "device_id": "metric-cards",
+  "device_type": "card",
+  "description": "A compact set of KPI cards used to summarize numeric proof points or headline performance figures.",
+  "best_for_classes": [
+    "impact-scorecard",
+    "business-case",
+    "valuation-npv",
+    "market-sizing"
+  ],
+  "best_for_data_shapes": [
+    "scorecard",
+    "comparison",
+    "summary"
+  ],
+  "not_for": [
+    "customer-journey",
+    "ecosystem"
+  ],
+  "typical_role": "support",
+  "notes": [
+    "Works best when each metric label is short.",
+    "Often supports a hero KPI or a summary band."
+  ]
+}

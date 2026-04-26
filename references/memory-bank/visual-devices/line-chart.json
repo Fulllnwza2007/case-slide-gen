@@ -1,0 +1,23 @@
+{
+  "device_id": "line-chart",
+  "device_type": "chart",
+  "description": "A trend line used to show change over time or progression across ordered periods.",
+  "best_for_classes": [
+    "market-trend",
+    "impact-scorecard",
+    "business-case",
+    "valuation-npv"
+  ],
+  "best_for_data_shapes": [
+    "trend",
+    "scorecard"
+  ],
+  "not_for": [
+    "customer-journey"
+  ],
+  "typical_role": "proof",
+  "notes": [
+    "Use when the slope or directional movement matters.",
+    "Works best with a small number of series."
+  ]
+}

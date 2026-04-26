@@ -1,0 +1,44 @@
+{
+  "variant_id": "control-tower_board_with_dependency-strip",
+  "parent_grammar": "execution-board-with-control-points",
+  "summary": "An execution board led by one control anchor, with owner or dependency clusters and a lighter sequencing strip.",
+  "composition_pattern": "execution control anchor with owner/dependency clusters and a narrow timeline or sequencing support strip",
+  "hero_position": "left or center control anchor",
+  "support_structure": [
+    "owner or dependency clusters",
+    "light sequencing strip",
+    "optional milestone or risk note"
+  ],
+  "reading_order": [
+    "control anchor",
+    "owners and dependencies",
+    "sequencing strip"
+  ],
+  "common_device_mix": [
+    "process-flow",
+    "callout-card",
+    "risk-mitigation-table"
+  ],
+  "best_for_classes": [
+    "owner-governance",
+    "workstreams",
+    "change-management",
+    "operating-model"
+  ],
+  "best_for_data_shapes": [
+    "table",
+    "comparison",
+    "roadmap"
+  ],
+  "when_to_use": [
+    "The page must show how execution is controlled, not just when things happen.",
+    "Ownership and dependencies are central to implementation success."
+  ],
+  "avoid_when": [
+    "The page is primarily a clean phased rollout with minimal coordination complexity."
+  ],
+  "reference_slides": [
+    "2025_nordea_1st_s035",
+    "2024_boozt_1st_s033"
+  ]
+}

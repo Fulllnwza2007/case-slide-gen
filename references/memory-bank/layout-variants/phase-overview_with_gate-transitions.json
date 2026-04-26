@@ -1,0 +1,49 @@
+{
+  "variant_id": "phase-overview_with_gate-transitions",
+  "parent_grammar": "roadmap-with-phase-lanes",
+  "summary": "A phase-led rollout page where the three-phase overview remains dominant and the gates act as clear transition logic between them.",
+  "composition_pattern": "strong phase overview band at top, explicit transition gates between phases, and subordinate execution lanes below",
+  "hero_position": "top phase overview band with transition gates",
+  "support_structure": [
+    "subordinate lane timeline beneath the phase band",
+    "short phase-specific action blocks",
+    "optional end-state note kept visually quiet"
+  ],
+  "reading_order": [
+    "phase overview",
+    "transition gates",
+    "initiative row labels",
+    "primary rollout bars",
+    "secondary actions"
+  ],
+  "common_device_mix": [
+    "phase-lanes",
+    "timeline",
+    "callout-card",
+    "metric-cards"
+  ],
+  "best_for_classes": [
+    "roadmap",
+    "pilot-scale-rollout",
+    "milestones",
+    "change-management"
+  ],
+  "best_for_data_shapes": [
+    "roadmap",
+    "table",
+    "comparison"
+  ],
+  "when_to_use": [
+    "The page should clearly show one source-derived phase overview first, while still making go / no-go transitions visible.",
+    "Gate logic matters, but it should support the phase story rather than dominate it."
+  ],
+  "avoid_when": [
+    "The slide is a pure control-tower or governance page.",
+    "The gates are the only story and the phases themselves are secondary."
+  ],
+  "reference_slides": [
+    "2022_pandora_1st_s011",
+    "2025_nordea_1st_s035",
+    "2024_boozt_1st_s021"
+  ]
+}

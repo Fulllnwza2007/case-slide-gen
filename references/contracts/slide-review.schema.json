@@ -1,0 +1,80 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "case-slide-gen/slide-review",
+  "title": "Case Slide Gen Slide Review",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "slide_number",
+    "shell_compliance",
+    "body_fit",
+    "visual_hierarchy",
+    "consulting_quality",
+    "copy_behavior",
+    "overall_outcome",
+    "revision_notes"
+  ],
+  "properties": {
+    "slide_number": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "shell_compliance": {
+      "$ref": "#/$defs/reviewCategory"
+    },
+    "body_fit": {
+      "$ref": "#/$defs/reviewCategory"
+    },
+    "visual_hierarchy": {
+      "$ref": "#/$defs/reviewCategory"
+    },
+    "consulting_quality": {
+      "$ref": "#/$defs/reviewCategory"
+    },
+    "copy_behavior": {
+      "$ref": "#/$defs/reviewCategory"
+    },
+    "overall_outcome": {
+      "type": "string",
+      "enum": [
+        "accept",
+        "revise",
+        "regenerate"
+      ]
+    },
+    "revision_notes": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "$defs": {
+    "reviewCategory": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "rating",
+        "notes"
+      ],
+      "properties": {
+        "rating": {
+          "type": "string",
+          "enum": [
+            "pass",
+            "borderline",
+            "fail"
+          ]
+        },
+        "notes": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}

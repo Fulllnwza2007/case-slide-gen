@@ -1,0 +1,48 @@
+{
+  "variant_id": "journey-with_gate_or_funnel",
+  "parent_grammar": "top-journey-bottom-pain-cards",
+  "summary": "A journey hero is paired with one gate, drop-off, or funnel-like proof device that highlights where conversion or confidence breaks down.",
+  "composition_pattern": "journey hero with a gate/funnel support cue and lower friction row",
+  "hero_position": "upper-center",
+  "support_structure": [
+    "lower friction row tied to critical stages",
+    "one side or embedded funnel/gate proof cue",
+    "optional compact synthesis strip"
+  ],
+  "reading_order": [
+    "journey hero",
+    "gate or funnel cue",
+    "friction row",
+    "summary"
+  ],
+  "common_device_mix": [
+    "journey-path",
+    "pain-point-cards",
+    "funnel",
+    "callout-card"
+  ],
+  "best_for_classes": [
+    "customer-journey",
+    "customer-pain",
+    "retention-loyalty",
+    "promotion-offer"
+  ],
+  "best_for_data_shapes": [
+    "journey",
+    "funnel",
+    "comparison"
+  ],
+  "when_to_use": [
+    "One break point or drop-off matters strongly in the story",
+    "The page needs more than sequence; it needs a visible decision gate"
+  ],
+  "avoid_when": [
+    "The page has no real conversion or gate logic",
+    "The customer story is better told by personas plus insight column"
+  ],
+  "reference_slides": [
+    "2026_loral_nordic_1st_s016",
+    "2026_loral_nordic_1st_s026",
+    "2026_loral_nordic_1st_s030"
+  ]
+}

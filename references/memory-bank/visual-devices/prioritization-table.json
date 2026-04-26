@@ -1,0 +1,22 @@
+{
+  "device_id": "prioritization-table",
+  "device_type": "table",
+  "description": "A ranked table used to compare options against explicit criteria and show the final order.",
+  "best_for_classes": [
+    "prioritization",
+    "portfolio-choice",
+    "decision-criteria"
+  ],
+  "best_for_data_shapes": [
+    "table",
+    "comparison"
+  ],
+  "not_for": [
+    "customer-journey"
+  ],
+  "typical_role": "proof",
+  "notes": [
+    "Use when exact criteria and ranking must remain visible.",
+    "Prefer this over a matrix when text detail matters."
+  ]
+}

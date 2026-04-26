@@ -1,0 +1,22 @@
+{
+  "device_id": "heatmap",
+  "device_type": "chart",
+  "description": "A color-intensity grid used to show relative strength, risk, or concentration across two dimensions.",
+  "best_for_classes": [
+    "competitive-landscape",
+    "risk-mitigation",
+    "customer-segmentation"
+  ],
+  "best_for_data_shapes": [
+    "matrix",
+    "comparison"
+  ],
+  "not_for": [
+    "timeline"
+  ],
+  "typical_role": "proof",
+  "notes": [
+    "Use when pattern intensity matters more than precise values.",
+    "Keep the color scale simple and explained."
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "device_id": "scatter-plot",
+  "device_type": "chart",
+  "description": "A two-axis plot used to compare items by position rather than by bars or lines.",
+  "best_for_classes": [
+    "competitive-landscape",
+    "prioritization",
+    "portfolio-choice"
+  ],
+  "best_for_data_shapes": [
+    "matrix",
+    "comparison"
+  ],
+  "not_for": [
+    "timeline"
+  ],
+  "typical_role": "hero",
+  "notes": [
+    "Use when relative positioning matters more than exact totals.",
+    "Keep the number of points manageable."
+  ]
+}

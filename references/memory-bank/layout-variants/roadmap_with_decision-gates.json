@@ -1,0 +1,47 @@
+{
+  "variant_id": "roadmap_with_decision-gates",
+  "parent_grammar": "roadmap-with-phase-lanes",
+  "summary": "A phased rollout page where visible decision points, evaluation gates, or pilot checkpoints shape how scaling proceeds.",
+  "composition_pattern": "horizontal roadmap with distinct checkpoints or evaluation points breaking phase transitions",
+  "hero_position": "full-width phased roadmap with visible gate moments",
+  "support_structure": [
+    "compact lanes or task bands",
+    "decision points or evaluation checkpoints",
+    "optional light driver or owner note"
+  ],
+  "reading_order": [
+    "phases",
+    "decision gates",
+    "lanes",
+    "milestones"
+  ],
+  "common_device_mix": [
+    "phase-lanes",
+    "timeline",
+    "callout-card",
+    "metric-cards"
+  ],
+  "best_for_classes": [
+    "roadmap",
+    "pilot-scale-rollout",
+    "milestones",
+    "change-management"
+  ],
+  "best_for_data_shapes": [
+    "roadmap",
+    "table",
+    "comparison"
+  ],
+  "when_to_use": [
+    "Pilot success or review gates determine whether the next phase proceeds.",
+    "The page must highlight checkpoints rather than just elapsed time."
+  ],
+  "avoid_when": [
+    "The rollout is straightforward and does not hinge on explicit decision points."
+  ],
+  "reference_slides": [
+    "2025_nordea_1st_s035",
+    "2024_berlingske_3rd_s014",
+    "2020_novo_nordisk_1st_s011"
+  ]
+}
