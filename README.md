@@ -1,5 +1,7 @@
 # Case Slide Gen
 
+This skill is designed for use in Codex.
+
 Case Slide Gen is a Codex skill for turning business, strategy, finance, and case-competition content into consulting-style slide images.
 
 Generate consulting-style case competition slide images from structured content using a fixed shell and adaptive body logic.
@@ -178,6 +180,14 @@ python3 scripts/rebuild_indexes.py
 ```
 
 This lets you keep the public skill package while improving local retrieval quality with your own content.
+
+## Important Notes
+
+- Generated content may not be fully accurate. Always review the logic, numbers, and conclusions before using the slides in a real presentation.
+- Text, icons, charts, or small visual details may occasionally render imperfectly or appear distorted.
+- Layout balance, spacing, and proportions may vary from slide to slide, especially when the source content differs in structure or density.
+- Output quality depends heavily on the quality and clarity of the input content.
+- This skill is best used as an acceleration tool, not as a final source of truth. Human review is still required.
 
 ## Public Package Notes
 
