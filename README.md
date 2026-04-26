@@ -2,6 +2,52 @@
 
 Case Slide Gen is a Codex skill for turning business, strategy, finance, and case-competition content into consulting-style slide images.
 
+Generate consulting-style case competition slide images from structured content using a fixed shell and adaptive body logic.
+
+## Installation
+
+Clone this repository and copy it into your Codex skills directory.
+
+```bash
+git clone https://github.com/Fulllnwza2007/case-slide-gen.git
+cp -R case-slide-gen ~/.codex/skills/Case-Slide-Gen
+```
+
+Then restart Codex so it reloads the skill metadata.
+
+## Quick Start
+
+Use this prompt:
+
+```text
+Use Case Slide Gen with this file: [ABSOLUTE_FILE_PATH]
+
+Language: English
+Audience: judges
+Slide count: adaptive
+Source strictness: close
+Prefer: denser body composition and stronger supporting evidence per slide
+Theme: [optional]
+
+Build the full prompt set first, then stop and show me the prompts before generating any images.
+```
+
+Typical flow:
+
+1. The skill analyzes the source and plans the deck.
+2. It builds prompts for every slide.
+3. You review the full prompt set.
+4. You approve generation.
+5. It generates the slide images.
+
+## Why I Built This
+
+After seeing the capabilities of GPT Image 2, I felt it had enough potential to generate slides directly.
+
+That made me think about a recurring problem I face in case competitions: the hard part is not only analyzing the problem and developing the right solution, but also turning that thinking into a presentation that is structured well, visually strong, and easy to read.
+
+That is why I built Case Slide Gen for ChatGPT and Codex: a skill designed to help turn case-competition thinking into presentation-ready slide images.
+
 It uses:
 
 - a fixed shell across the deck
@@ -37,29 +83,6 @@ The content should already contain:
 - metrics or comparisons
 - implementation logic
 - impact assumptions where relevant
-
-## Recommended Usage
-
-Use this short prompt:
-
-```text
-Use Case Slide Gen with this file: [ABSOLUTE_FILE_PATH]
-
-Language: English
-Audience: judges
-Slide count: adaptive
-Source strictness: close
-Prefer: denser body composition and stronger supporting evidence per slide
-Theme: [optional]
-
-Build the full prompt set first, then stop and show me the prompts before generating any images.
-```
-
-Notes:
-
-- Use `adaptive` unless you have a hard slide limit.
-- `Theme` is optional.
-- If slides feel too sparse, keep the `Prefer` line.
 
 ## Approval Flow
 
@@ -103,7 +126,13 @@ Case Slide Gen works in this order:
 11. Generate images after approval.
 12. Review deck consistency.
 
-## Repository Contents
+Notes:
+
+- Use `adaptive` unless you have a hard slide limit.
+- `Theme` is optional.
+- If slides feel too sparse, keep the `Prefer` line.
+
+## Repository Structure
 
 - `SKILL.md`
   - main skill instructions
@@ -112,7 +141,7 @@ Case Slide Gen works in this order:
 - `scripts/`
   - helper scripts for rebuilding portable indexes and creating slide-memory from your own local corpus
 - `references/`
-  - workflow, schemas, styling rules, examples
+  - workflow, schemas, styling rules, and examples
 - `references/memory-bank/layout-grammars/`
   - curated body layout families
 - `references/memory-bank/layout-variants/`
